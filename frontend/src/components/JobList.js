@@ -24,7 +24,7 @@ export default function JobList({ rows }) {
 
   return (
     <TableContainer component={Paper}>
-      <Table className={classes.table} aria-label="simple table">
+      <Table className={classes.table} aria-label="simple table" title="Job List">
         <TableHead>
           <TableRow>
             <TableCell>Id</TableCell>
